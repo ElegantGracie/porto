@@ -4,22 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grace Portfolio</title>
+    <title>Grace Nwafor Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <div class="hero">
+    <div class="hero" id="home-section">
         <nav>
-            <h1>My Portfolio</h1>
+            <h3 class="logo">Grace<span>.</span></h3>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">HIRE ME</a></li>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#service-section">Services</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Grace Nwafor</h1>
+            <h3>I am a web developer</h3>
+            <div class="cv">
+                <button class="btn"><a download=""  href="assets/cv/Nwafor_Grace_Backend Developer.pdf">My CV</a></button>
+            </div>
+        </div>
     </div>
-    <img src="assets/images/20230215_125350 (2).jpg" alt="">
+
+    <div class="about" id="about-section">
+        <div class="main">
+            <div class="about-img">
+                <img src="assets/images/20230215_125350 (2).jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h3>About Me</h3>
+                <h5>Web Developer</h5>
+                <p>I build functionally appealing websites. I build mobile first websites. I can create great APIs for your frontend web application. Your functionalities are in safe hands.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="service" id="service-section">
+        <div class="title">
+            <h2>My Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Frontend Development</h5>
+                <div class="pea">
+                    <p>I am good at creating functional user's interface of web designs. I can implement your designs.</p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa fa-user"></i>
+                <h5>Responsive Websites</h5>
+                <div class="pea">
+                    <p>Every website needs to maintain their functionalities whilst being appealing on every device. I build mobile first website.</p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa fa-bell"></i>
+                <h5>Backend Development</h5>
+                <div class="pea">
+                    <p>I create great APIs for your frontend web application. Your functionalities are safe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio-section">
+        <div class="title">
+            <h2>My Work</h2>
+        </div>
+        <div class="box">
+            <div class="card" style="background-image: url(assets/images/StrawYog.21a42ab0.jpg);">
+                <div class="project">
+                    <div class="">
+                        <h5><a href="https://gleaming-lamington-4fb01f.netlify.app/">Yogurt Restaurant</a></h5>
+                    </div>
+                
+                    <div class="pea">
+                        <p class="">A yogurt restaurant website</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(assets/images/girl.png);">
+                <div class="project">
+                    <div class="">
+                        <h5><a href="https://tech-e-learn.netlify.app/">Udemy Clone</a></h5>
+                    </div>
+                
+                    <div class="pea">
+                        <p class="">A clone of Udemy landing page</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(assets/images/boy.png);">
+                <div class="project">
+                    <div class="">
+                        <h5><a href="https://barter-clone.netlify.app/">Barter Clone</a></h5>
+                    </div>
+                
+                    <div class="pea">
+                        <p class="">A clone of Barter website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="contact-me" id="contact-section">
+        <p>Come let's create something beautiful</p>
+    </div> -->
+
+    <footer>
+        <p>Nwafor Grace</p>
+        <p>You can reach out to me on any of these platforms</p>
+        <div class="social">
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <p class="end">Copyright <span><i class="fa fa-copyright"></i></span>2023 by Nwafor Grace</p>
+    </footer>
 </body>
 </html>
