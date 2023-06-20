@@ -10,110 +10,116 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <div class="hero" id="home-section">
-        <nav>
-            <h3 class="logo">Grace<span>.</span></h3>
-            <ul>
-                <li><a href="#home-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#service-section">Services</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#portfolio-section">Portfolio</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Grace Nwafor</h1>
-            <h3>I am a web developer</h3>
-            <div class="cv">
-                <button class="btn"><a download=""  href="assets/cv/Nwafor_Grace_Backend Developer.pdf">My CV</a></button>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="px-md-5 my-0">
+                <a class="navbar-brand text-black fs-1 logo">Grace<span class="">.</span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="container px-5">
+                    <div class="d-lg-flex justify-content-between mt-2 mt-lg-0">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav d-flex justify-content-end">
+                                <li class="nav-item mx-2"><a href="#about-section" class="nav-link navLink">About</a></li>
+                                <li class="nav-item mx-2"><a href="#service-section" class="nav-link navLink">Services</a></li>
+                                <li class="nav-item mx-2"><a href="#skills-section" class="nav-link navLink">Skills</a></li>
+                                <li class="nav-item mx-2"><a href="#portfolio-section" class="nav-link navLink">Portfolio</a></li>
+                                <li class="nav-item mx-2"><a href="#contact-section" class="nav-link navLink">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid bg-dark">
+        <div class="d-flex justify-content-around">
+            <div class="d-flex justify-content-center align-items-center w-50">
+                <div class="py-2">
+                    <p class="fs-5 text-white">Hello world, my name is</p>
+                    <p class="fs-1 text-white">Grace Nwafor</p>
+                    <p class="fs-5 text-white">I am a web developer</p>
+                    <div class="cv mb-2">
+                        <button class="btn"><a download=""  href="assets/cv/Nwafor_Grace_Backend Developer.pdf" class="text-decoration-none text-white">My CV</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-50 h-50 rounded my-4">
+                <img src="assets/images/Nwafor Grace Chinenye_Software Development Backend_Nigeria.jpg" class="rounded img-fluid" alt="">
             </div>
         </div>
     </div>
 
-    <div class="about" id="about-section">
-        <div class="main">
-            <div class="about-img">
-                <img src="assets/images/20230215_125350 (2).jpg" alt="">
+    <div class="container-fluid bg-dark py-3" id="about-section">
+        <div class="d-flex justify-content-between">
+            <div class="w-50 h-50 rounded">
+                <img src="assets/images/20230215_125350 (2).jpg" alt="" class="rounded img-fluid">
             </div>
-            <div class="about-text">
-                <h3>About Me</h3>
-                <h5>Web Developer</h5>
-                <p>I build functionally appealing websites. I build mobile first websites. I can create great APIs for your frontend web application. Your functionalities are in safe hands.</p>
+            <div class="d-flex justify-content-center align-items-center w-50">
+                <div class="text-white px-3">
+                    <h2 class="">About Me</h2>
+                    <p class="fs-6">I build functionally appealing, mobile first websites. I can create great APIs for your frontend web application. Assuredly, your functionalities are in safe hands.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="service" id="service-section">
-        <div class="title">
+    <div class="container-fluid bg-dark py-3" id="service-section">
+        <div class="text-center text-white">
             <h2>My Services</h2>
         </div>
-        <div class="box">
-            <div class="card">
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <div class="card text-white text-center my-1">
                 <i class="fa fa-bars"></i>
-                <h5>Frontend Development</h5>
-                <div class="pea">
-                    <p>I am good at creating functional user's interface of web designs. I can implement your designs.</p>
-                </div>
+                <p class="fs-5 ">Frontend Development</p>
+                <p class="fs-6 px-1">I am good at creating functional user's interface of web designs. I can implement your designs.</p>
             </div>
-            <div class="card">
+            <div class="card text-white text-center my-1">
                 <i class="fa fa-user"></i>
-                <h5>Responsive Websites</h5>
-                <div class="pea">
-                    <p>Every website needs to maintain their functionalities whilst being appealing on every device. I build mobile first website.</p>
-                </div>
+                <p class="fs-5">Responsive Websites</p>
+                <p class="fs-6 px-1">Every website needs to maintain their functionalities whilst being appealing on every device. I build mobile first website.</p>
             </div>
-            <div class="card">
+            <div class="card text-white text-center my-1">
                 <i class="fa fa-bell"></i>
-                <h5>Backend Development</h5>
-                <div class="pea">
-                    <p>I create great APIs for your frontend web application. Your functionalities are safe.</p>
-                </div>
+                <p class="fs-5">Backend Development</p>
+                <p class="fs-6 px-1">I create great APIs for your frontend web application. Your functionalities are safe.</p>
             </div>
         </div>
     </div>
 
-    <div class="portfolio" id="portfolio-section">
-        <div class="title">
+    <div class="container-fluid bg-dark py-3" id="portfolio-section">
+        <div class="text-center text-white">
             <h2>My Work</h2>
         </div>
-        <div class="box">
-            <div class="card" style="background-image: url(assets/images/StrawYog.21a42ab0.jpg);">
-                <div class="project">
-                    <div class="">
-                        <h5><a href="https://gleaming-lamington-4fb01f.netlify.app/">Yogurt Restaurant</a></h5>
-                    </div>
-                
-                    <div class="pea">
-                        <p class="">A yogurt restaurant website</p>
-                    </div>
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <div class="card text-center my-1">
+                <img src="assets/images/StrawYog.21a42ab0.jpg" alt="" class="card-img h-100">
+                <div class="project card-img-overlay">
+                    <p class="fs-5"><a href="https://gleaming-lamington-4fb01f.netlify.app/" class="card-link text-decoration-none text-black">Yogurt Restaurant</a></p>
+                    <p class="text-white">A yogurt restaurant website</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url(assets/images/girl.png);">
-                <div class="project">
-                    <div class="">
-                        <h5><a href="https://tech-e-learn.netlify.app/">Udemy Clone</a></h5>
-                    </div>
-                
-                    <div class="pea">
-                        <p class="">A clone of Udemy landing page</p>
-                    </div>
+            <div class="card text-center my-1">
+                <img src="assets/images/girl.png" alt="" class="card-img h-100">
+                <div class="project card-img-overlay h-100">
+                    <p class="fs-5"><a href="https://tech-e-learn.netlify.app/" class="card-link text-black text-decoration-none">Udemy Clone</a></p>
+                    <p class="text-white">A clone of Udemy landing page</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url(assets/images/boy.png);">
-                <div class="project">
-                    <div class="">
-                        <h5><a href="https://barter-clone.netlify.app/">Barter Clone</a></h5>
-                    </div>
-                
-                    <div class="pea">
-                        <p class="">A clone of Barter website</p>
-                    </div>
+            <div class="card text-center my-1">
+                <img src="assets/images/boy.png" alt="" class="card-img h-100">
+                <div class="project card-img-overlay">
+                    <p class="fs-5"><a href="https://barter-clone.netlify.app/" class="text-decoration-none text-black">Barter Clone</a></p>               
+                    <p class="text-white">A clone of Barter website</p>
                 </div>
             </div>
         </div>
@@ -123,15 +129,19 @@
         <p>Come let's create something beautiful</p>
     </div> -->
 
-    <footer>
-        <p>Nwafor Grace</p>
-        <p>You can reach out to me on any of these platforms</p>
-        <div class="social">
-            <a href=""><i class="fa fa-linkedin"></i></a>
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <footer class="bg-dark text-white py-3">
+        <p class="text-center">Nwafor Grace</p>
+        <p class="text-center">You can reach out to me on any of these platforms</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="social d-flex justify-content-evenly">
+                <a href="" class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none mx-2"><i class="fa fa-linkedin text-white"></i></a>
+                <a href="" class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none mx-2"><i class="fa fa-facebook text-white" aria-hidden="true"></i></a>
+                <a href="" class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none mx-2"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
+            </div>
         </div>
-        <p class="end">Copyright <span><i class="fa fa-copyright"></i></span>2023 by Nwafor Grace</p>
+        <p class="end mt-2 text-center">Copyright <span><i class="fa fa-copyright"></i></span> 2023 by Nwafor Grace</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
