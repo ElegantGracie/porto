@@ -30,7 +30,7 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav d-flex justify-content-end">
                                 <li class="nav-item mx-2"><a href="#about-section" class="nav-link navLink">About</a></li>
                                 <li class="nav-item mx-2"><a href="#service-section" class="nav-link navLink">Services</a></li>
-                                <li class="nav-item mx-2"><a href="#skills-section" class="nav-link navLink">Skills</a></li>
+                                <!-- <li class="nav-item mx-2"><a href="#skills-section" class="nav-link navLink">Skills</a></li> -->
                                 <li class="nav-item mx-2"><a href="#portfolio-section" class="nav-link navLink">Portfolio</a></li>
                                 <li class="nav-item mx-2"><a href="#contact-section" class="nav-link navLink">Contact</a></li>
                             </ul>
@@ -41,34 +41,20 @@
         </div>
     </nav>
     
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark" id="about-section">
         <div class="d-flex justify-content-around">
             <div class="d-flex justify-content-center align-items-center w-50">
                 <div class="py-2">
                     <p class="fs-5 text-white">Hello world, my name is</p>
                     <p class="fs-1 text-white">Grace Nwafor</p>
-                    <p class="fs-5 text-white">I am a web developer</p>
+                    <p class="fs-5 text-white">I am a web developer. I build functionally appealing, mobile first websites. I can create great APIs for your frontend web application. Assuredly, your functionalities are in safe hands.</p>
                     <div class="cv mb-2">
-                        <button class="btn"><a download=""  href="assets/cv/Nwafor_Grace_Backend Developer.pdf" class="text-decoration-none text-white">My CV</a></button>
+                        <button class="btn"><a download=""  href="assets/cv/GRACE NWAFOR - Resume.pdf" class="text-decoration-none text-white">My CV</a></button>
                     </div>
                 </div>
             </div>
-            <div class="w-50 h-50 rounded my-4">
-                <img src="assets/images/Nwafor Grace Chinenye_Software Development Backend_Nigeria.jpg" class="rounded img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid bg-dark py-3" id="about-section">
-        <div class="d-flex justify-content-between">
-            <div class="w-50 h-50 rounded">
-                <img src="assets/images/20230215_125350 (2).jpg" alt="" class="rounded img-fluid">
-            </div>
-            <div class="d-flex justify-content-center align-items-center w-50">
-                <div class="text-white px-3">
-                    <h2 class="">About Me</h2>
-                    <p class="fs-6">I build functionally appealing, mobile first websites. I can create great APIs for your frontend web application. Assuredly, your functionalities are in safe hands.</p>
-                </div>
+            <div class="w-25 h-25 rounded my-4">
+                <img src="assets/images/20230215_125350 (2).jpg" class="rounded img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -102,23 +88,23 @@
         </div>
         <div class="d-flex justify-content-evenly flex-wrap">
             <div class="card text-center my-1">
-                <img src="assets/images/StrawYog.21a42ab0.jpg" alt="" class="card-img h-100">
+                <img src="assets/images/iphecho.png" alt="" class="card-img h-100">
                 <div class="project card-img-overlay">
-                    <p class="fs-5"><a href="https://gleaming-lamington-4fb01f.netlify.app/" class="card-link text-decoration-none text-black">Yogurt Restaurant</a></p>
-                    <p class="text-white">A yogurt restaurant website</p>
+                    <p class="fs-5"><a href="https://iphecho.com/" class="card-link text-decoration-none site-title">Iphecho</a></p>
+                    <p class="text-white">An agro-based retailer website</p>
                 </div>
             </div>
             <div class="card text-center my-1">
-                <img src="assets/images/girl.png" alt="" class="card-img h-100">
+                <img src="assets/images/travis-exchange.png" alt="" class="card-img h-100">
                 <div class="project card-img-overlay h-100">
-                    <p class="fs-5"><a href="https://tech-e-learn.netlify.app/" class="card-link text-black text-decoration-none">Udemy Clone</a></p>
-                    <p class="text-white">A clone of Udemy landing page</p>
+                    <p class="fs-5"><a href="https://travisexchange.com/" class="card-link site-title text-decoration-none">Travis Exchange</a></p>
+                    <p class="text-white">A landing page for a cryptocurrency dealer</p>
                 </div>
             </div>
             <div class="card text-center my-1">
                 <img src="assets/images/boy.png" alt="" class="card-img h-100">
                 <div class="project card-img-overlay">
-                    <p class="fs-5"><a href="https://barter-clone.netlify.app/" class="text-decoration-none text-black">Barter Clone</a></p>               
+                    <p class="fs-5"><a href="https://barter-clone.netlify.app/" class="text-decoration-none site-title">Barter Clone</a></p>               
                     <p class="text-white">A clone of Barter website</p>
                 </div>
             </div>
@@ -129,7 +115,7 @@
         <p>Come let's create something beautiful</p>
     </div> -->
 
-    <footer class="bg-dark text-white py-3">
+    <footer class="bg-dark text-white py-3" id="contact-section">
         <p class="text-center">Nwafor Grace</p>
         <p class="text-center">You can reach out to me on any of these platforms</p>
         <div class="d-flex justify-content-center align-items-center">
@@ -139,7 +125,7 @@
                 <a href="https://twitter.com/Elegant_Gracie_" class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none mx-2"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
             </div>
         </div>
-        <p class="end mt-2 text-center">Copyright <span><i class="fa fa-copyright"></i></span> 2023 by Nwafor Grace</p>
+        <p class="end mt-2 text-center">Copyright <span><i class="fa fa-copyright"></i></span> <script>document.write(new Date().getFullYear());</script> by Nwafor Grace</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

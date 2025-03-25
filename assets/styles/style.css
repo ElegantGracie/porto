@@ -80,3 +80,6 @@ footer p:nth-child(2) {
     color: orangered;
     font-size: 0.8em;
 }
+.site-title {
+    color: orangered;
+}
